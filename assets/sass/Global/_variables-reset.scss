@@ -1,0 +1,16 @@
+:root {
+  --backGround-1: #20598e;
+  --backGround-hover-1: #2777c1;
+  --backGround-2: #ffffff;
+  --mainColor-1: #e9791e;
+  --mainColor-2: #333333;
+  --mainTransition: all 0.3s;
+  scroll-behavior: smooth;
+}
+.main-transition {
+  transition: all 0.3s;
+}
+body,
+html {
+  overflow-x: clip;
+}

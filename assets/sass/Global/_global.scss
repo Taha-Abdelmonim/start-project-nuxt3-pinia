@@ -1,0 +1,18 @@
+.global-button {
+  padding: 2px 20px;
+  font-size: 22px;
+  border-radius: 30px;
+  color: var(--backGround-2);
+  cursor: pointer;
+  background: var(--backGround-1);
+  transition: var(--mainTransition);
+  &:hover {
+    background: var(--backGround-hover-1);
+  }
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
